@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Forms-->
+<form action="/action.php"><!--action Attribute use for which backend file save/connect this data-->
+    <input type="text" placeholder="username"><!--in this we can only type the text-->
+    <input type="password" placeholder="password"><!--in this then password is hidden-->
+<br><br>
+
+<h5>select your class</h5>
+<br>
+<!--Radio-->
+    <label for="101"><!--select any one option-->
+        <input type="radio" value="class XI" name="class" id="101"> ClassXI
+    </label>
+    
+    <label for="102">
+        <input type="radio" value="class XII" name="class" id="102"> ClassXII
+    </label>
+<br><br>
+
+<h5>select your subjects</h5>
+<br>
+<!--Checkbox-->    
+<label for="math"><!--select more options-->
+    <input type="checkbox" value="math" name="subject" id="103"> math
+</label>
+<label for="phy">
+    <input type="checkbox" value="phy" name="subject" id="103"> physics
+</label>
+<label for="bio">
+    <input type="checkbox" value="bio" name="subject" id="103"> biology
+</label>
+<label for="chem">
+    <input type="checkbox" value="chem" name="subject" id="103"> chemistry
+</label>
+<br><br>
+
+select your city
+<select name="city"><!--to make dropdown-->
+    <option value="Delhi">Delhi</option>
+    <option value="pune">pune</option>
+    <option value="mumbai">mumbai</option>
+    <option value="nashik">nashik</option>
+    <option value="banglore">banglore</option>
+</select>
+<br><br>
+
+<textarea name="textarea" id="109" placeholder="Please give me your feedback here"
+rows="5"></textarea>
+<br>
+<input type="submit" value="submit"><!--file submit in our backend file-->
+<br>
+</form>
+</body>
+</html>
